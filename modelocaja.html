@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Caja y Herramienta</title>
+    <link rel="stylesheet" href="css/modelocaja.css">
+</head>
+<body>
+   <Header>
+         <h1>Utilizacion del Etiqueta Mark en HTML</h1>
+         <hr/>
+        <ul>
+           <li> <p>El Elemento HTML Mark representa un texto  <mark>marcado</mark>  o <mark>resaltado</mark>  como referencia o anotación, debido a su relevancia o importancia en un contexto particular.</p></li>
+            <li > <p>En una cita (< q >)  o en otro bloque ("< blockquote >"), generalmente indica texto que es de especial interés pero que no está destacado en el material de origen, o material que necesita especial escrutinio, aunque el autor original no lo considerase importante.</p> </li>
+            <li > <p>Por otro lado, < mark > indica una parte del contenido del documento que probablemente sea relevante para el usuario. Por ejemplo, se puede utilizar en una página que muestra los resultados de búsqueda para resaltar cada uno de estos por palabra.</p></li>
+             <li><p>No uses el elemento < mark > para resaltado de sintaxis; usa el elemento < span >  para este fin.</p></li>   
+        </ul>
+       
+    </Header>
+    <main>
+
+        <article>
+            <hr>
+            <h4>Teoria de los Display</h4>
+             <div class="div block">block</div>
+             <div class="div inline">inline</div>
+             <div class="div inline-block">inline-bloc</div>
+             <div class="div none">none</div>
+        <article>
+
+        <article>
+            <hr>
+            <h4>Imagen dentro de un Parrafo</h4>
+            <p>Ahora vamos a ver como se comporta una etiqueta < img > dentro de un parrafo, para visualizar el display como se comporta <img class=" img-tam1 " src="https://images.vexels.com/media/users/3/142738/isolated/preview/1ac8fce296a7a389f466082d9655cb40-logo-colorido-de-cubos-3d-by-vexels.png" alt="Imagen de Comportamiento"> Conserva su comportamiento de inline-block</p>
+            
+         
+        </article>
+
+        <article>
+            <hr>
+            <h4>Imagen dentro de dos parrafos</h4>
+            <p>A continuacion hemos creados dos parrafos  y en medio de estos estara nuevamente nuestra imagen y visualizaremos como se comportan
+                <p>Viendo sus atributos podemos observar que el comportamiento de la imagen sigue respentando su inline-bloc y se ubica en el segundo parrafo  si cambiamos su tamaño se va reflejando  mejor
+                    <img  class="img-tam2"src="https://images.vexels.com/media/users/3/142738/isolated/preview/1ac8fce296a7a389f466082d9655cb40-logo-colorido-de-cubos-3d-by-vexels.png" alt="Imagen de Comportamiento"> 
+                </p>
+            </p>
+             
+             
+        </article>
+            <h4>Box-Sizing</h4>
+            <div class="ctn-img"> <img class="img-six"src="img/krillin.png" alt="Krillin"></div>
+            <p>Al cambiar el box-sizing a bordex fox se me sale  la imagen de la caja del DIV</p>
+
+        <article>
+
+        </article>
+    </main>
+</body>
+</html>
