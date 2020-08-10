@@ -48,3 +48,130 @@ height: 100px;
     height: 100px; 
     
 }
+
+.container {
+    border: 1px solid deeppink;
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
+    height: 100px;
+    width: 200px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    /* Añadir propiedad overflow */
+  }
+  .container--2 {
+    height: 200px;
+    overflow-y:scroll;
+    /* Añadir propiedad overflow */
+  }
+
+
+  .body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+  }
+  
+  .main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .user-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #f93af9;
+    background-color: #f3f3f3;
+  
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR POR QUE PASA
+     **/
+   /*display: inline;*/
+    
+    /* se da un salto en el contenedor */
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    /*display: inline-block;
+    se alinean dentro del mismo bloque los tres elementos sin perder el contenedor*/
+    
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    text-align: center;
+    /*se centra todos los elementos del contenedor*/
+  }
+  
+  .user-info__name {
+    margin: 8px 0;
+  }
+  
+  .user-info__mail {
+    display: inline-block;
+    max-width: 284px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: #d4d4d4;
+    color: #f93af9;
+    text-decoration: none;
+    font-weight: bold;
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    overflow-x: scroll;
+    /*Se le genera una barra de desplazamiento horizontal al desbordamiento del primer contenedo*/
+    
+     /* DESCOMENTAR LAS SIGUIENTES LINEAS
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+  }
+
+  body {
+    margin: 10px 30px;
+  }
+  .col {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+    
+  }
+  
+  .box--1 {
+    background:cyan;
+  }
+  .box--2 {
+   
+    background: url(https://www.fillmurray.com/130/130);
+    
+  }
+  .box--3 {
+   
+    background-image:url(https://www.fillmurray.com/130/130);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-position:  1em 25%;
+    background-color:cyan;

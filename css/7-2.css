@@ -1,0 +1,45 @@
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor > * { /* Esto es para justificar los documentos en la misma caja*/
+    padding: 10px;
+    flex: 1 100%;
+  }
+
+.header{
+    background-color: tomato;
+}
+
+.main{
+    background-color: deepskyblue;
+    text-align: left;
+
+}
+
+.footer{
+    background-color: lightgreen;
+}
+
+.derecho{
+    background-color: gold;
+}
+
+.izquierdo{
+    background-color: hotpink;
+}
+
+@media all and (min-width: 600px) {
+    .conjunto { flex: 1 0 0; }
+  }
+
+@media all and  (min-width: 600px){
+    .main    { flex: 3 0px; }
+    .izquierdo { order: 1; } 
+    .main    { order: 2; }
+    .derecho { order: 3; }
+    .footer  { order: 4; }
+}

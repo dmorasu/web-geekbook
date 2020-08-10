@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.bloquegris{
+    border-radius: 4%;
+    background-color: rgb(187, 183, 183);
+    width: 100px;
+}

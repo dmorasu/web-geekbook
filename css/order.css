@@ -1,0 +1,44 @@
+.contenedor{
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 1200px;
+    
+}
+img{
+    
+    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.caja1{
+    
+    background-color: burlywood;
+    width:50%;
+    height: 50%;
+    order: 200;
+
+}
+.caja2{
+    display: block;
+    background-color: rgb(185, 224, 190);
+    width:50%;
+    height: 50%;
+
+}
+.caja3{
+    background-color: rgb(170, 169, 223);
+    width:50%;
+    height: 50%;
+
+}
+.caja4{
+    background-color: rgb(175, 169, 161);
+    width:50%;
+    height: 50%;
+
+}

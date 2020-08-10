@@ -1,0 +1,44 @@
+div{
+    border: blue solid;
+    font-size: small;
+    
+    
+    
+    
+}
+
+.contenedor{
+    width: 500px;
+    height: 500px;
+    border: red solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contenedor-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li{
+    
+    list-style: none;
+    /*border: orange solid;*/
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+.menu{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
